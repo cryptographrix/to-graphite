@@ -97,11 +97,8 @@ int main( int argc, char **argv) {
             {   
                 die("sendto()");
             }
-
-            } else {
-                // line was truncated
-            }
+        }
     }
 
-     return 0;
+    return 0;
 }
